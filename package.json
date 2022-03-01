@@ -1,7 +1,7 @@
 {
   "name": "my-site",
   "version": "0.1.0",
-
+"homepage": "https://RanjanaSaini.github.io/myshopsite/",
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.7.1",

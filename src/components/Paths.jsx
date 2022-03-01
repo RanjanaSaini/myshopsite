@@ -12,7 +12,7 @@ import Checkout from "./Checkout"
 import { Routes ,Route } from 'react-router-dom';
  
 
-function Paths({handelchange ,cartItem  , Womensethnicdata , handelremoveproduct,Womenswesterndata ,MensWear ,Homeandkitchenitems, ElectronicItems , handelcartclearnes , removeItem , checkoutdata}) {
+function Paths({handelchange ,cartItem  , Womensethnicdata , handelremoveproduct,Womenswesterndata ,MensWear ,Homeandkitchenitems, ElectronicItems , handelcartclearnes , removeItem }) {
 return(
 <Routes >
 {/* basename="/test_repository" */}

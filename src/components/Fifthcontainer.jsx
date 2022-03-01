@@ -7,7 +7,7 @@ function Fifthcontainer(){
 return(
 <div className="container" style={{paddingLeft:"0px",paddingRight:"0px", paddingTop:"0px",position:"relative", height:"350px"}}>
 <img src="https://www.sellerlift.com/wp-content/uploads/2017/07/7_Steps_To_Creating_An_Engaging_Email_Template.png" alt="Name"
-style={{ width:"869px" , height:"350px",opacity: "0.8"}}/> 
+style={{ width:"869px" , height:"350px",opacity: "0.8" }}/> 
 <h1 className="fifth-container-text"> Reigster As A My Shop Supplier</h1>
 <p className="fifth-container-text2"> Sell your products to crore of customer at 0% commission</p>
 <ul className="fifth-container-item-list">

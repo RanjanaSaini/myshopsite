@@ -20,8 +20,11 @@ function App(){
     const {MensWear} = Mensdata
     const {ElectronicItems} = Electronicsdata
     const { Homeandkitchenitems} = Homeandkitchendata
-    // const {checkoutdata} = Checkout
 const [cartItem , setcartItem] = useState([]);
+
+// function chk(){
+//     <Checkout/>
+// }
 
 const handelchange =(product) =>{
 

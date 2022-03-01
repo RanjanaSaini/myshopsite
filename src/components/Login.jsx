@@ -1,13 +1,3 @@
-// import React from "react"
-
-// function Login(){
-//     return(
-//         <h1>hello</h1>
-//     )
-    
-// }
-// export default Login
-
 
 
 import React from 'react'
@@ -17,7 +7,7 @@ import FormControlLabel from '@material-ui/core/FormControlLabel';
 import Checkbox from '@material-ui/core/Checkbox';
 
 const Login=({handleChange})=>{
-    const paperStyle={padding :20,height:'70vh',width:300, margin:"20px auto"}
+    const paperStyle={padding :20,width:300, margin:"20px auto"}
     const avatarStyle={backgroundColor:'#1bbd7e'}
     const btnstyle={margin:'8px 0'}
     return(

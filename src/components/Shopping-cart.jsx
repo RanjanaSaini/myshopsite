@@ -6,8 +6,9 @@ import { Scrollbars } from 'react-custom-scrollbars-2';
 import AddIcon from '@mui/icons-material/Add';
 import RemoveIcon from '@mui/icons-material/Remove';
 import DeleteIcon from '@mui/icons-material/Delete';
-
-function Shoppingcart({cartItem , handelremoveproduct , handelchange , handelcartclearnes , removeItem}){
+import { Link } from 'react-router-dom';
+// import Checkout from "./Checkouts"
+function Shoppingcart({cartItem , handelremoveproduct , handelchange , handelcartclearnes , removeItem  }){
 const totalPrice = cartItem.reduce ((price,item)=> price +item.quantity * item.price ,0 );
 
 
@@ -99,8 +100,7 @@ return(
  )}</div>
 
 <h3 > Grand total: <spam> Rs {totalPrice}</spam></h3>
-
-<a href="/#/Checkout"><button > check out</button></a>
+<Link to ="/Checkout"><button > check out</button></Link>
 </div> 
 </div>
 </div>
