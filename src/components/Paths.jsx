@@ -24,7 +24,7 @@ return(
  <Route path="/Electronics" element= {<Electronicscart  ElectronicItems= {ElectronicItems} handelchange={handelchange}/>}/>
 <Route path="/Cart" element= {<Shoppingcart cartItem= {cartItem} handelchange ={handelchange} handelremoveproduct={handelremoveproduct} handelcartclearnes={handelcartclearnes} removeItem={removeItem}/>}/>
 <Route path="/Profile" element= {<Profile/>}/>
-<Route path="/Checkout" element= {<Checkout />}/>
+<Route path='/Checkout' element= {<Checkout/>}/>
 
 
 </Routes>
