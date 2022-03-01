@@ -16,7 +16,7 @@ function Paths({handelchange ,cartItem  , Womensethnicdata , handelremoveproduct
 return(
 <Routes >
 {/* basename="/test_repository" */}
- <Route path='/myshopsite' element= {<Home/>}/>
+ <Route path='/' element= {<Home/>}/>
   <Route path='/Womensethnic' element= {<Womensethniccarts  Womensethnicdata={Womensethnicdata} handelchange={handelchange}/>} />
  <Route path='/Womenswestern' element= {<Womenswesterncarts Womenswesterndata={Womenswesterndata} handelchange={handelchange}/>}/>
  <Route path="/Mens" element= {<Menscarts MensWear={MensWear} handelchange={handelchange}/>}/>

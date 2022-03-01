@@ -94,7 +94,8 @@ function Checkout() {
        </div>
        </div>
       </form>
-      <button type="button" style={{width:"300px" , marginLeft:"500px"}} class="btn btn-outline-dark">Payment</button>
+      <button type="button" style={{width:"300px" , marginLeft:"500px"}} 
+      class="btn btn-outline-dark">Payment</button>
 </div>
 </div>
 </div>

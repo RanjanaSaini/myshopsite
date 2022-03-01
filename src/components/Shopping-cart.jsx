@@ -100,7 +100,7 @@ return(
  )}</div>
 
 <h3 > Grand total: <spam> Rs {totalPrice}</spam></h3>
-<Link to ="/Checkout"><button > check out</button></Link>
+<Link to ="/Checkout"><button> check out</button></Link>
 </div> 
 </div>
 </div>
