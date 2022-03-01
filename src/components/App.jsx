@@ -8,8 +8,10 @@ import Electronicsdata from "./Electronics-data"
 import Homeandkitchendata from "./Home&kitchen-data"
 // import Checkout from "./Checkout"
 
-import {HashRouter as
-    BrowserRouter} from "react-router-dom";
+import {
+    // HashRouter as
+    BrowserRouter} 
+    from "react-router-dom";
 
 import Paths from "./Paths"
 
@@ -86,35 +88,3 @@ export default App;
 
 
 
-// import React from "react";
-//  import Womensethniccarts from "./Womens-ethnic-carts"
-//  import Womenswesterncarts from "./Womens-western-carts"; 
-//  import Menscarts from "./Mens-carts"; 
-// import Homekitchencarts from "./Home&kitchen-carts";
-// import Electronicscart from "./Electronics-cart";
-// import Shoppingcart from "./Shopping-cart";
-
-// // import { Routes ,Route } from 'react-router-dom';
-// function App(){
-
-// return(
-// <>
-// <Routes>
-// <Route path='/' element= {<Home/>}/>
-// <Route path='/Womensethnic' element= {<Womensethniccarts/>} />
-// <Route path='/Womenswestern' element= {<Womenswesterncarts/>}/>
-
-// <Route path="/Mens" element= {<Menscarts/>}/>
-// <Route path="/Homes&Kitchen" element= {<Homekitchencarts />}/>
-// <Route path="/Electronics" element= {<Electronicscart/>}/>
-// <Route path="/Cart" element= {<Shoppingcart/>}/>
-
-
-
-// </Routes> 
-
-// </>
-// )}
-// export default App;
-
-// mongodb+srv://Ranjana:<password>@cluster0.21jac.mongodb.net/myFirstDatabase?retryWrites=true&w=majority
